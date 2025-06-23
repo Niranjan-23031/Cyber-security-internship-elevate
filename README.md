@@ -1,0 +1,13 @@
+2.We find the local ip range using ipconfig in command prompt.
+3. screenshot of the same has been atatched
+4. the open ports and services are as follows:
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+7. each of these open ports pose a serious security risk such as 
+   port 135 can primary risk is remote exploits such as worms.
+   3306 can commonly be targeted for brute force attacks
+   445 can be targetted by ransomware and 139 can be subject to data leaks.
+8. the screenshot of the scan is attached in repo.
+   
